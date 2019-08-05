@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="zalando:docs:feedback:enabled" content="false">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="mermaid.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+</head>
+<body>
+  <div class="mermaid">
+  gantt
+    title ML Productivity Roadmap
+    dateFormat  YYYY-MM-DD
+    section Datalab
+    Dynamic User Environments: 2019-07-01, 92d
+    IDE Connectivity / Integration :2019-10-01, 92d
+    Bring Your Own Image     :2019-10-01, 92d
+    Smart Resource Allocation     :2020-01-01, 92d
+    section Platform
+    Monitoring (Data/Pipeline/Model)      :2019-07-01, 92d
+    Local Execution zflow     :2019-10-01, 92d
+    section Consulting
+    Tech Academy / Onboarding Training      :2019-07-01, 92d
+  </div>
+  <div>
+
+  </div>
+  <script>
+  var config = {
+      startOnLoad:true,
+      theme: 'neutral',
+  };
+  mermaid.initialize(config);
+  window.mermaid.init(undefined, document.querySelectorAll('.mermaid'));
+  </script>
+</body>
+</html>
